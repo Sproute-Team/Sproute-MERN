@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
+import Navbar from "../Components/Navbar";
 import "./Landing.css";
 import LogoName from "./images/sproutename.png"
 import ReactIcons from "react-icons"
-import LeftBar from "./Components/Leftbar";
-import Middlemain from "./Components/Middlemain";
+import LeftBar from "../Components/Leftbar";
+import Middlemain from "../Components/Middlemain";
 
 
 function Landing() {
