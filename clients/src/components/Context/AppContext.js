@@ -4,6 +4,7 @@ const ChatContext = createContext();
 const ChatProvider = ({children}) =>{
     const [LoggedInUser, setLoggedInUser] = useState([]);
     const [Orders, setOrders] = useState([]);
+    const [MenuItem, setMenuItem] = useState([]);
     const [userToken, setUserToken] = useState([]);
     useEffect(() => {
         const token = localStorage.getItem('chat-token');
@@ -13,7 +14,7 @@ const ChatProvider = ({children}) =>{
         }
         setUserToken(token);
       },[])
-    return <ChatContext.Provider value={{LoggedInUser, setLoggedInUser,Orders,setOrders,userToken, setUserToken}}>{children}</ChatContext.Provider>
+    return <ChatContext.Provider value={{LoggedInUser, setLoggedInUser,Orders,setOrders,userToken, setUserToken,MenuItem, setMenuItem}}>{children}</ChatContext.Provider>
 }
 export default ChatProvider;
 export const ChatState =()=>{
