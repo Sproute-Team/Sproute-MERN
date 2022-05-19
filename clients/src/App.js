@@ -1,4 +1,13 @@
 import './App.css';
+<<<<<<< HEAD
+import Sidebar from './sidebar.js';
+
+function App() {
+  return (
+    <div className="App">
+      <Sidebar />
+    </div>
+=======
 import {
   BrowserRouter,
   Routes,
@@ -18,6 +27,7 @@ function App() {
           <Route path="/overview" element={<RenderOverview/>}/>
       </Routes>
     </BrowserRouter>
+>>>>>>> 24ee33cfd156e3e75114e6ab11a60f37c093b0c6
   );
 }
 
