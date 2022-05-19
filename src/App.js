@@ -1,16 +1,41 @@
 import './App.css';
-import Landing from './Landing'
-import GetStarted from './Getstarted';
-import signup from './server';
-import getAllUsers from './getAllusers';
+<<<<<<< HEAD
+import SideBar from './components/menu/sidebar';
+import Header from './components/menu/Header';
+import Menu from './components/menu/addMenu';
+import MenuItems from './components/menu/menuItems';
 
 function App() {
-  signup()
-  getAllUsers()
+  return (
+    <div className="App">
+    <div className='side_menu'>
+    <SideBar/>
+    
+    <div className='header_side_menu'>
+    <Header/>
+    <div className='menu_menuItems'>
+    <Menu/>
+    <div className='items-menu'>
+    <MenuItems/>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    
+    
+=======
+import Landing from './Pages/Landing'
+import GetStarted from './Pages/Getstarted';
+
+
+function App() {
+
   return (
     <div className="App">
       <Landing />
       <GetStarted />
+>>>>>>> 3977627d351072541aee95182f4f81a098fb550c
     </div>
   );
 }

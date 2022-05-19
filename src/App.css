@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+}
+.side_menu{
+    display: flex;
+    flex-direction: row;
+}
+.header_side_menu{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+.menu_menuItems{
+    border:1px solid #FA4B0C;
+    border-radius: 15px;
+}
+.items-menu{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+=======
 .App {
     background-color: #F7F8FC;
 }
@@ -10,4 +39,5 @@
 }
 ::-webkit-scrollbar-thumb{
     background: #FA4B0C;
+>>>>>>> 3977627d351072541aee95182f4f81a098fb550c
 }
