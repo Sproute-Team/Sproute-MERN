@@ -1,0 +1,13 @@
+
+const getAllUsers = async () => {
+    await fetch("http://196.223.240.154:8099/supapp/api/users",{
+        method:'GET',
+        headers:{
+            'Content-type':'application/json'
+        }
+    }).then((res) => {
+        res.json();
+    }).then((data) => console.log(data)).catch((err) => {console.log(err)})
+}
+
+export default getAllUsers

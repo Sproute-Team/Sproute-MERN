@@ -1,0 +1,13 @@
+.App {
+    background-color: #F7F8FC;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.195);
+}
+::-webkit-scrollbar-thumb{
+    background: #FA4B0C;
+}
