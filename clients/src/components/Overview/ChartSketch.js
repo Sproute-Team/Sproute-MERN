@@ -22,7 +22,7 @@ function ChartSketch() {
       },
       {
         label: "Week Earnings",
-        data: [33, 53, 65, 21, 44,33, 73, 95, 20, 60, 15,48],
+        data: [13, 15, 17, 19, 23,36, 14, 47, 49, 25, 55,60],
         fill: false,
         borderColor: "#742774",
         tension:0.4

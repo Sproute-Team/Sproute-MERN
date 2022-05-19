@@ -1,5 +1,5 @@
 import React from 'react'
-import DashBoard from './components/Overview/DashBoard'
+import DashBoard from '../components/Overview/DashBoard'
 
 function RenderOverview() {
   return (

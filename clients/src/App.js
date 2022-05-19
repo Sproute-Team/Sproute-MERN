@@ -5,8 +5,8 @@ import {
   Route,
 }  from "react-router-dom";
 // import { BrowserRouter, Routes,Route} from 'react-router-dom'
-import RenderOrder from './RenderOrder';
-import RenderOverview from './RenderOverview';
+import RenderOrder from './Pages/RenderOrder';
+import RenderOverview from './Pages/RenderOverview';
 function App() {
   return (
     <BrowserRouter>
