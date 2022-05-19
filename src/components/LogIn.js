@@ -1,7 +1,5 @@
 import React from 'react';
-import './LogIn.css'; 
-import {Link} from 'react-router-dom';
-import SignUp from './SignUp';
+import './LogIn.css';
 import login from'./login.jpg';
 import logo from './logo.png';
 
@@ -40,7 +38,7 @@ const LogIn=()=> {
                <button>Log In</button>
             </div>
             
-            <p>Don't have an account?<Link to={SignUp}>Sign Up</Link></p>
+            <p>Don't have an account?<Link to='/signup'>Sign Up</Link></p>
             <p id="reserved">All rights reserved 2022</p>
         </form>
         </div>
