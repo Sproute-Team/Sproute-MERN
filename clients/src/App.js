@@ -1,13 +1,4 @@
-import './App.css';
-<<<<<<< HEAD
-import Sidebar from './sidebar.js';
-
-function App() {
-  return (
-    <div className="App">
-      <Sidebar />
-    </div>
-=======
+import React from 'react';
 import {
   BrowserRouter,
   Routes,
@@ -17,17 +8,23 @@ import RenderOrder from './Pages/RenderOrder';
 import RenderOverview from './Pages/RenderOverview';
 import AllLanding from './LandingPages/AllLanding';
 import RenderMenu from './Pages/RenderMenu';
+import Clients from './Pages/Clients';
+import LogIn from './Auth/LogIn';
+import SignUp from './Auth/SignUp';
+import './App.css';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<AllLanding/>}/>
+          {/* <Route path="/" element={<AllLanding/>}/> */}
+          <Route path='/login' element={<LogIn/>}/>
+          <Route path='/signup' element={<SignUp/>}/>
           <Route path='/menu' element={<RenderMenu/>}/>
+          <Route path='/client' element={<Clients/>}/>
           <Route path="/orders" element={<RenderOrder/>}/>
           <Route path="/overview" element={<RenderOverview/>}/>
       </Routes>
     </BrowserRouter>
->>>>>>> 24ee33cfd156e3e75114e6ab11a60f37c093b0c6
   );
 }
 
