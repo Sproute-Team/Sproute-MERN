@@ -9,7 +9,7 @@ function Landing() {
         <>
             <div className="main overflow-hidden">
                 <div className="nav h-24 flex">
-                        <img className="h-24" src={LogoName}/>
+                        {/* <img className="h-24" src={LogoName}/> */}
                     <Navbar />
                 </div>
                 <div className="main-down">

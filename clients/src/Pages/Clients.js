@@ -1,5 +1,10 @@
-import {FaSearch, FaEllipsisV ,FaPencilAlt,FaUsers} from "react-icons/fa";
+import {FaSearch, FaEllipsisV ,FaPencilAlt,FaUsers, FaPlus} from "react-icons/fa";
+import Header from "../components/Orders/Header";
+// import Header from "../components/Orders/Header";
 import SideBar from '../components/Orders/SideBar';
+import ClientAdd from "./ClientAdd";
+import ClientHeader from "./ClientHeader";
+import ClientShowCase from "./ClientShowCase";
 import './styles.css';
 const Clients = () => {
     let clients=[
@@ -87,62 +92,14 @@ const Clients = () => {
 
     ]                          
     return (
-        <div className="flex">
-        <SideBar/>            
-             <div className="header">
-                <h2 class="cap">Clients</h2>
-                <div className="search">
-                <FaUsers/>
-                <input type="text" placeholder= "Search for clients......."/>
-                </div>
-                <div className="main">
-                <div className="describe">
-                 <h4>Overview </h4>
-                 <div className="underline">
-                 </div>
-                 <h4>List View</h4>                 
-                 </div>
-                 <div className="lists">
-                     <ul>
-                     <li>profile</li>                         
-                     <li>Names</li>
-                     <li>Email</li>
-                     <li>Location</li>
-                     <li>Orders</li>
-                     <li>Phone</li>
-                     <li>Controls</li>
-                     </ul>
-                 </div>
-                 <div className="dash" style={{position:"absolute"}}>
-                 {clients.map(client => (
-            <div className="preview" key={client.id}>
-              <ul>
-                  {/* <div class="profile"></div> */}
-                  <li style={{
-
-                  }}>{client.image}</li>
-              <li style={{
-                  fontWeight:"bold",
-                  }}>{client.name }</li>
-
-              <li>{client.email}</li>
-              <li>{client.location}</li>
-              <li>{client.Orders}</li>
-              <li>{client.phone}</li>
-              <li>{client.controls}</li>
-              {/* <li>{client.controls}</li> */}
-              </ul>
+        <div className="flex bg-[#F7F8FC] w-full">
+            <SideBar/>
+            <div className="block">
+                <ClientHeader/>
+                <ClientAdd/>
+                <ClientShowCase/>
             </div>
-            
-        ))}
-                </div>
-                </div>
-             </div>
-             <div className="button">
-                <button>Add Client &#43;</button>
-             </div>
-             
-            </div>
+        </div>
     );
 }
 

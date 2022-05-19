@@ -1,5 +1,4 @@
-
-.container{
+.container_whole{
     border:2px black hidden;
     box-shadow: 1px black ;
     width:60em;
@@ -9,31 +8,31 @@
     border-radius:0.5em;
     background-color: #FA4B0C;
 }
-.form{
+.form_part{
     background-color: white;
     width:30em;
     height: 30em;
     margin-left:5em;
     float:right;
 }
-.logo{
+.logo_part{
     clear: right;
     float:left;
     margin-left:-30em;
     display: inline-flex;
 }
-.logo svg{
+.logo_part svg{
    width: 32em;
    margin-left: -3em;
    height: 9.8em;
 }
-.logo-2{
+.logo_part-2{
     margin-left:-28em;
     display: flex;
     flex-direction: row;
     padding-top: 2em;
 }
-.name{
+.name_main{
     display: flex;
     flex-direction: row;
     margin-right: 3em;
@@ -41,33 +40,36 @@
     margin-top: 0.2em;
 }
 
-.name h1{
+.name_main h1{
     margin-right: -0.8em;
     margin-top: -0.3em;
 } 
-.name :nth-child(odd){
+
+.name_main :nth-child(odd){
     color: #FA4B0C;
 } 
-.logo-2 img{
+
+.logo_part-2 img{
     height:2em;
 }
 
-.icon img{
+.icon_main img{
     margin-top: 15em;
-    margin-left:-17em;
-    height:12em;
+    margin-left:-15em;
+    height:10em;
 }
 
-.set{
+.set1{
     margin: 2em 5em;
     display:flex;
     flex-direction:column;
 } 
  
- h1{
+.h1{
     margin-left:1.2em;
 } 
- .set input{
+
+.set1 input{
     width:25em;
     height:3em;
     border-radius:0.5em;
@@ -76,19 +78,19 @@
     border-width:0.5px;
     border-color:#F7F8FC;
     border-style: hidden;
-
 } 
-.set label{
+
+.set1 label{
     font-weight:bold;
     margin-left:-7em;
     margin-bottom:0.9em;
     font-family:'Segoe UI';
 } 
-#email{
+#user_email{
     margin-left:-17.790em;
 } 
 
-#password{
+#user_password{
     margin-right:8em;
 }
 
@@ -99,6 +101,7 @@
     margin-left:4em;
     border-radius:0.5em;
     border-style:none;
+    font-weight: bold;
 }
 p{
     margin-left:4em;
@@ -106,20 +109,18 @@ p{
     margin-bottom:1.2em;
 }
 
-p Link{
+.signUp{
     text-decoration:none;
     color:#FA4B0C;
 }
 
-/* a :hover{
-    color: orangered;
-    font-size: 3em;
-} */
+.signUp:hover{
+    text-decoration: underline;
+}
+
 #reserved{
     margin-bottom:1.2em;
     margin-left: 12em;
     color: rgba(0, 0, 0, 0.504);
     width: 10em;
 } 
-
-
