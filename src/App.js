@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 import SideBar from './components/menu/sidebar';
 import Header from './components/menu/Header';
 import Menu from './components/menu/addMenu';
@@ -23,6 +24,18 @@ function App() {
     </div>
     
     
+=======
+import Landing from './Pages/Landing'
+import GetStarted from './Pages/Getstarted';
+
+
+function App() {
+
+  return (
+    <div className="App">
+      <Landing />
+      <GetStarted />
+>>>>>>> 3977627d351072541aee95182f4f81a098fb550c
     </div>
   );
 }
