@@ -3,22 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.27.2",
-    "chart.js": "^3.7.1",
     "react": "^18.1.0",
-    "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.1.0",
-    "react-icons": "^4.3.1",
 <<<<<<< HEAD
-=======
     "react-router-dom": "^6.3.0",
->>>>>>> 24ee33cfd156e3e75114e6ab11a60f37c093b0c6
+=======
+>>>>>>> 6ba536bed91a8c09f9a22764de76fbe48c8274fe
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
