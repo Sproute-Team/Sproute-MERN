@@ -18,5 +18,27 @@ body{
   grid-gap: 1em;
   max-width: 60vw;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
+}
+.RenderMenu{
+  display: flex;
+  flex-direction: column;
+}
+.side_menu{
+  display: flex;
+  flex-direction: row;
+}
+.header_side_menu{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  width:80%;
+}
+.menu_menuItems{
+  border:1px solid #FA4B0C;
+  border-radius: 15px;
+}
+.items-menu{
+  display: flex;
+  flex-direction: row;
+  width:80%;
 }

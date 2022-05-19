@@ -3,7 +3,7 @@ import {FaSearch,FaBell} from 'react-icons/fa';
 function Header() {
   return (
     <div className=" text-black bg-white p-3 flex justify-between">
-            <h1 className="font-bold text-2xl">Orders</h1>
+            <h1 className="font-bold text-2xl">Menu</h1>
             <div className="flex gap-4">
                 <FaSearch/>
                 <div className="border-r-2 pr-2 h-6 border-black border-solid "><FaBell/></div>

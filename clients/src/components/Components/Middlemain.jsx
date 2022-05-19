@@ -1,5 +1,4 @@
 import React from "react";
-import ReactIcons from "react-icons"
 
 const Middlemain = () => {
     return (

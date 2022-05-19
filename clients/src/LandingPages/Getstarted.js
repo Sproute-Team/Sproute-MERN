@@ -1,12 +1,13 @@
 import React from "react";
-import Component1 from "./images/Component1.png";
-import Component2 from "./images/Component2.png";
-import Component3 from "./images/Component2a.png";
-import Component4 from "./images/Component3.png";
+import Component1 from "../components/images/Component1.png";
+import Component2 from "../components/images/Component2.png";
+import Component3 from "../components/images/Component2a.png";
+import Component4 from "../components/images/Component3.png";
 
 const GetStarted = () => {
     return (
         <>
+            
             <div className="flex flex-col">
                 <h1 className="m-auto w-fit text-2xl font-bold mt-5">Get Started</h1>
                 <p className="m-auto w-fit opacity-90">For free and get more revenues! For free and get more revenues! For free and get more revenues! </p>

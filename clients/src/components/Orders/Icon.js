@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaChartPie, FaUber } from 'react-icons/fa'
+import {FaChartPie,FaUber,FaAd } from 'react-icons/fa'
 import {Link } from 'react-router-dom'
 // import RenderOverview from '../../RenderOverview'
 function Icon() {
@@ -18,9 +18,11 @@ function Icon() {
     <div className='flex text-white hover:text-[#FA4B0C] hover:cursor-pointer gap-4 hover:bg-slate-700 mt-2 p-4 px-10'>
     <FaChartPie className='text-xl'/><span className='text-[14px]'>Overview</span>
     </div>
+    <Link to='/menu'>
     <div className='flex text-white hover:text-[#FA4B0C] hover:cursor-pointer gap-4 hover:bg-slate-700 mt-2 p-4 px-10'>
-    <FaChartPie className='text-xl'/><span className='text-[14px]'>Overview</span>
+    <FaAd className='text-xl'/><span className='text-[14px]'>Menu</span>
     </div>
+    </Link>
     <div className='flex text-white hover:text-[#FA4B0C] hover:cursor-pointer gap-4 hover:bg-slate-700 mt-2 p-4 px-10'>
     <FaChartPie className='text-xl'/><span className='text-[14px]'>Overview</span>
 
