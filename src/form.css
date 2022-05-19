@@ -1,0 +1,47 @@
+form{
+    padding: 20px;
+}
+.form{
+    z-index: 4;
+}
+::placeholder{
+    color: #5C5656;
+}
+input{
+    display: block;
+    border: solid #FD4C3A ;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2% auto;
+    width: 80%;
+    outline: none;
+}
+input:hover{
+    border: solid white;
+}
+h4{
+    margin-left: 8%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+label{
+    margin-left: 9%;
+}
+.float > input{
+    border: #FDFDFD solid;
+    display: flex;
+    margin-top: 8%;
+}
+#left{
+    width: 20%;
+    float: left;
+    margin-left: 9%;
+}
+#right{
+    width: 50%;
+    float: right;
+    margin-right: 8.5%;
+}
+input{
+    z-index: 4;
+}
