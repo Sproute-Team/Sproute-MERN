@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import "./Landing.css";
-import LogoName from "./images/sproutename.png"
-import ReactIcons from "react-icons"
+import LogoName from "../images/sproutename.png"
 import LeftBar from "../Components/Leftbar";
 import Middlemain from "../Components/Middlemain";
 
@@ -13,7 +12,7 @@ function Landing() {
             <div className="main overflow-hidden">
                 <div className="nav h-24 flex">
                     <div className="">
-                        <img className="h-24" src={LogoName}/>
+                        <img className="h-24" src={LogoName} alt="The logo name for sproute" />
                     </div>
                     <Navbar />
                     <LeftBar />

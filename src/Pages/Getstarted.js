@@ -1,8 +1,8 @@
 import React from "react";
-import Component1 from "./images/Component1.png";
-import Component2 from "./images/Component2.png";
-import Component3 from "./images/Component2a.png";
-import Component4 from "./images/Component3.png";
+import Component1 from "../images/Component1.png";
+import Component2 from "../images/Component2.png";
+import Component3 from "../images/Component2a.png";
+import Component4 from "../images/Component3.png";
 
 const GetStarted = () => {
     return (
