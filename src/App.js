@@ -1,8 +1,8 @@
 import './App.css';
-import SideBar from './components/sidebar';
-import Header from './components/Header';
-import Menu from './components/addMenu';
-import MenuItems from './components/menuItems';
+import SideBar from './components/menu/sidebar';
+import Header from './components/menu/Header';
+import Menu from './components/menu/addMenu';
+import MenuItems from './components/menu/menuItems';
 
 function App() {
   return (
