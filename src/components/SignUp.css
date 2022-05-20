@@ -107,15 +107,20 @@ button{
     margin-left:4em;
     border-radius:0.5em;
     border-style:none;
+    font-weight: bold;
 }
 p{
     margin-left:4em;
-    margin-bottom:em;
+    margin-bottom:1.2em;
 }
 
-p Link{
+.logIn{
     text-decoration:none;
     color:#FA4B0C;
+}
+
+.logIn:hover{
+    text-decoration: underline;
 }
 
 #reserved{

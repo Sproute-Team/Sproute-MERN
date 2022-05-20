@@ -1,6 +1,5 @@
 import React from 'react';
 import './SignUp.css'
-import Login from './LogIn';
 import {Link} from 'react-router-dom';
 import signup from './signup.png'
 import logo from './logo.png'
@@ -44,7 +43,7 @@ const SignUp=()=>{
             <div className="submit">
                <button type="submit">Sign Up</button>
             </div>
-            <p>Already have an account?<Link to ='/login'>Log In</Link></p>
+            <p>Already have an account?<Link to ='/login' className='logIn'>Log In</Link></p>
         </form>
         </div>
     </div>

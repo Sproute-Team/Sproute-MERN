@@ -12,11 +12,13 @@ import Clients from './Pages/Clients';
 import LogIn from './Auth/LogIn';
 import SignUp from './Auth/SignUp';
 import './App.css';
+import RenderAll from './RegisterClient/RenderAll';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<AllLanding/>}/>
+          <Route path='/registerClient' element={<RenderAll/>}/>
           <Route path='/login' element={<LogIn/>}/>
           <Route path='/signup' element={<SignUp/>}/>
           <Route path='/menu' element={<RenderMenu/>}/>

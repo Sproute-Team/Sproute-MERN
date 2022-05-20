@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaSearch,FaPlus} from 'react-icons/fa'
+import {FaSearch,} from 'react-icons/fa'
 function ClientAdd() {
   return (
     <div className='flex p-5 justify-between'>
