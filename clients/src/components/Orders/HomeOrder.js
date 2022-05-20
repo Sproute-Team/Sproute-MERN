@@ -29,6 +29,14 @@ function HomeOrder() {
         <div className='flex'>
         <div className="overflow-y-scroll mt-2 w-[80vw] h-[75vh]">
         <OrderNow/>
+        <OrderNow/>
+        <OrderNow/>
+        <OrderNow/>
+        <OrderNow/>
+        <OrderNow/>
+        <OrderNow/>
+        <OrderNow/>
+        <OrderNow/>
         </div>
         <div className='flex flex-col overflow-y-scroll mt-2 w-[50vw] h-[75vh]'>
         <Delivered/>

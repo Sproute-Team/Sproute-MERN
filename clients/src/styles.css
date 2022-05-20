@@ -5,7 +5,29 @@
     font-family: 'Poppins', sans-serif;
     /* background: #FEFEFE; */
 }
+<<<<<<< HEAD:clients/src/Pages/styles.css
 /* Table Styles */
+=======
+.sidebar{
+    width: 20em;
+    height: 100vh;
+    background-color: #020C18;
+}
+span{
+    color:#FA4B0C;
+}
+.title{
+    color:white;
+    margin-left: 2em;
+}
+.upper{
+    color:white;
+    margin-top:2em;
+    margin-left: 3em;
+    list-style-type: none;
+    line-height: 2.7em;
+    
+>>>>>>> parent of 7eb01eb (remastering the pages):clients/src/styles.css
 
 .table-wrapper{
     margin: 0 1em;

@@ -15,7 +15,10 @@
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
+<<<<<<< HEAD
+=======
     "react-router-dom": "^6.3.0",
+>>>>>>> 24ee33cfd156e3e75114e6ab11a60f37c093b0c6
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

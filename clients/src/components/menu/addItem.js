@@ -2,7 +2,7 @@ import React from 'react';
 import {FaPlus} from 'react-icons/fa';
 function CreateNewDash() {
   return (
-    <div className='bg-white rounded-xl border-2 w-[50vw] m-5'>
+    <div className='bg-white rounded-xl border-2 w-[29vw] m-5'>
     <span className='px-10 text-xl font-bold'>Add Item</span>
     <div className='flex justify-between text-[12px] px-10 py-2'>
         <span>Today</span>

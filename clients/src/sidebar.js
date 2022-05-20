@@ -1,3 +1,4 @@
+<<<<<<< HEAD:clients/src/Pages/Clients.js
 import {FaSearch, FaEllipsisV ,FaPencilAlt,FaUsers, FaPlus} from "react-icons/fa";
 import Header from "../components/Orders/Header";
 // import Header from "../components/Orders/Header";
@@ -5,8 +6,15 @@ import SideBar from '../components/Orders/SideBar';
 import ClientAdd from "./ClientAdd";
 import ClientHeader from "./ClientHeader";
 import ClientShowCase from "./ClientShowCase";
+=======
+>>>>>>> parent of 7eb01eb (remastering the pages):clients/src/sidebar.js
 import './styles.css';
-const Clients = () => {
+import { faBagShopping, faBars, faBookBookmark, faBookmark, faEllipsisV, faGear, faHome, faPen, faPeopleGroup, faUser } from "@fortawesome/free-solid-svg-icons";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {FaSearch} from "react-icons/fa";
+const Sidebar = () => {
     let clients=[
         {
            id:1,
@@ -22,13 +30,21 @@ const Clients = () => {
            </defs>
            </svg>
            ,
+           
            name:"Carrie Alexander",
            email:"kettyAnders@gmail.com",
            location:"NYC , USA ",
            Orders:2,
            phone:"(840) 789 123 465",
-           controls:<FaPencilAlt/>,
-           searchControl:<FaSearch/>
+           controls:<FontAwesomeIcon icon={faPen} />,
+           controls:<FontAwesomeIcon icon={faEllipsisV} style={{
+            color:"#FA4B0C",
+            width:"2em",
+            height:"2em",
+
+        }}/>
+        
+         
         },
         {
             id:2,
@@ -41,13 +57,22 @@ const Clients = () => {
             <stop offset="1" stop-color="#000CE8" stop-opacity="0.6"/>
             </linearGradient>
             </defs>
-            </svg>,
+            </svg>
+            ,
+            
             name:"Ketty Anderson",
             email:"kattyander@gmail.com",
             location:"Dubai UAE",
             Orders:9,
             phone:"(840) 789 123 465",
-            controls:<FaEllipsisV/>,
+            controls:<FontAwesomeIcon icon={faEllipsisV} style={{
+                color:"#FA4B0C",
+                width:"2em",
+                height:"2em",
+                marginLeft:"1em"
+            }}/>,
+
+          
          },
 
          {
@@ -61,13 +86,23 @@ const Clients = () => {
             <stop offset="1" stop-color="#FF5ACD" stop-opacity="0.5"/>
             </linearGradient>
             </defs>
-            </svg>,
+            </svg>
+            ,
+            
             name:"Matt Stephanie",
             email:"mattnie@gmail.com",
             location:"Canada Ottawa",
             Orders:8,
             phone:"(840) 789 123 465",
-            controls:<FaEllipsisV/>,
+            controls:<FontAwesomeIcon icon={faEllipsisV} style={{
+                color:"#FA4B0C",
+                width:"2em",
+                height:"2em",
+                marginRight:"1em"
+                
+            }}/>,
+
+          
          },
 
          {
@@ -81,26 +116,155 @@ const Clients = () => {
             <stop offset="1" stop-color="#B721FF" stop-opacity="0.5"/>
             </linearGradient>
             </defs>
-            </svg>,
+            </svg>
+            ,
+            
             name:"Alice Norway",
             email:"aliways@gmail.com",
             location:"Belgium Brussels",
             Orders:3,
             phone:"(840) 789 123 465",
-            controls:<FaEllipsisV/>
+            controls:<FontAwesomeIcon icon={faEllipsisV} style={{
+                color:"#FA4B0C",
+                width:"2em",
+                height:"2em",
+                marginLeft:"1em",
+            }}/>,
+
+          
          },
 
     ]                          
     return (
+<<<<<<< HEAD:clients/src/Pages/Clients.js
         <div className="flex bg-[#F7F8FC] w-full">
             <SideBar/>
             <div className="block">
                 <ClientHeader/>
                 <ClientAdd/>
                 <ClientShowCase/>
+=======
+        <div className="sidebar">
+
+            <h2 class="title"><span>Sproute</span>Meals</h2>
+            <div className='holder'>
+
+                <div className='side'>
+                    <div className="divisions">
+                        <ul class="upper">
+                            <li><FontAwesomeIcon icon={faBookBookmark} style={{
+                                color:"#FA4B0C",
+                                marginRight:"1em",
+                            }}/>Overview</li>
+                            <li><FontAwesomeIcon icon={faBagShopping} style={{
+                                color:"#FA4B0C",
+                                width:"1.5em",
+                                height:"1.5em",
+                        }}/>  Orders</li>
+                            <li><FontAwesomeIcon icon={faPeopleGroup} style={{
+                    marginTop:"0em",
+                    // background:"yellow",
+                    width:"2em",
+                    height:"2em",
+                    color:"#FA4B0C",
+                    marginRight:"0.4em"
+                    }} />
+Clients</li>
+                            <li><FontAwesomeIcon icon={faBars} style={{
+                                color:"#FA4B0C",
+                                marginRight:"1em"
+                                
+                            }}/>Menu</li>
+                        </ul>
+                    </div>
+                    <div className="divions2">
+                        <ul className="lower">
+                            <li><FontAwesomeIcon icon={faUser} style={{
+                                color:"#FA4B0C",
+                                marginRight:"0.5em"
+                            }}/> My Account</li>
+                            <li><FontAwesomeIcon icon={faGear}style={{
+                                color:"#FA4B0C",
+                                marginRight:"0.5em"
+                            }} />Settings</li>
+                        </ul>
+                    </div>
+                </div>
+             <div className="header">
+
+                <h2 class="cap">Clients</h2>
+                <div className="search">
+                <FontAwesomeIcon icon={faPeopleGroup} style={{
+                    marginLeft:"18em",
+                    marginTop:"0.3em",
+                    // background:"yellow",
+                    width:"2em",
+                    height:"2em",
+                    color:"#FA4B0C",
+                    }} />
+                    
+
+                <input type="text" placeholder= "Search for clients......."/>
+                </div>
+
+                <div className="main">
+                <div className="describe">
+                 <h4 style={{position: "absolute"}}>Overview </h4>
+                 <div className="underline">
+                     
+                 </div>
+                 <h4 style={{marginLeft: "3em"}}>List View</h4>                 
+                 </div>
+                 <div className="lists">
+                     <ul>
+                     <li>profile</li>                         
+                     <li>Names</li>
+                     <li>Email</li>
+                     <li>Location</li>
+                     <li>Orders</li>
+                     <li>Phone</li>
+                     <li>Controls</li>
+
+
+                     </ul>
+
+                 </div>
+                 <div className="dash" style={{position:"absolute"}}>
+                 {clients.map(client => (
+            <div className="preview" key={client.id}>
+              <ul>
+                  {/* <div class="profile"></div> */}
+                  <li style={{
+
+                  }}>{client.image}</li>
+              <li style={{
+                  fontWeight:"bold",
+                  }}>{client.name }</li>
+
+              <li>{client.email}</li>
+              <li>{client.location}</li>
+              <li>{client.Orders}</li>
+              <li>{client.phone}</li>
+              <li>{client.controls}</li>
+              {/* <li>{client.controls}</li> */}
+              </ul>
+            </div>
+            
+        ))}
+                 </div>
+                
+
+                </div>
+                
+             </div>
+             <div className="button">
+                <button>Add Client &#43;</button>
+             </div>
+             
+>>>>>>> parent of 7eb01eb (remastering the pages):clients/src/sidebar.js
             </div>
         </div>
     );
 }
 
-export default Clients;
+export default Sidebar;
