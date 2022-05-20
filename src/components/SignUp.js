@@ -1,6 +1,5 @@
 import React from 'react';
 import './SignUp.css'
-import Login from './LogIn';
 import {Link} from 'react-router-dom';
 import signup from './signup.png'
 import logo from './logo.png'
